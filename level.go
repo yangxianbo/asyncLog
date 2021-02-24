@@ -74,7 +74,7 @@ func NewLevelLog(filename string, logLevel Priority) (lf *LogFile, err error) {
 }
 func getFormatString(msg []interface{}) (msg0 string, err error) {
 	if len(msg) == 0 {
-		err = errors.New("args not enough")
+		err = errors.New("args is not enough")
 		return
 	}
 	msg0 = InterfaceToString(msg[0])
