@@ -1,4 +1,4 @@
-module monitordev/common/asyncLog
+module github.com/yangxianbo/asyncLog
 
 go 1.16
 
